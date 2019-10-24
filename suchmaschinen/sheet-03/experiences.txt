@@ -1,0 +1,3 @@
+I dindnt have so much time this week so i only did the first exercise and spent like 5 hours on it.
+I implemented sentinels in one method and binary search and binary search for the remainder of the list in the other and i wasnt sure if that counts as 3 of the ideas so that 
+wasnt entirely clear for me.

@@ -1,0 +1,35 @@
+Feedback
+========
+
+Points
+------
+14.0 Points
+
+Regarding Experiences
+---------------------
+
+Grading
+-------
+
+Exercise 1
+----------
+- You are using the wrong `example.txt` (the one from the lecture not the
+  exercises) which forced you to change the test cases from the TIP file. Next
+  time you should ask in the forum when you think the TIP file tests don't work.
+- `read_from_file()` uses the correct way of checking the last record id.
+  However your check for the record list being empty could be simplified by just
+  adding the record id in the part above where the initial list is created
+- `intersect()` looks fine but you're missing the test case from the TIP file
+  that checks for empty intersections ⇒ -1 Point
+- `process_query()` looks fine
+
+Exercise 2
+----------
+- No experience.txt no points ⇒ -5 Points
+- Even disregarding that your progam only allows a single keyword and doesn't
+  make use of `process_query()` which would have made that quite easy.
+
+Exercise 3
+----------
+- The files are here and Jenkins seems happy
+

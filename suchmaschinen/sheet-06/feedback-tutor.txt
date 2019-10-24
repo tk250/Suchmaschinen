@@ -1,0 +1,26 @@
+Feedback
+========
+
+Points
+------
+17.0 Points
+
+Remarks
+-------
+- Don't commit .class files or the data file to the repository ⇒ -1 Point
+
+Exercise 1
+----------
+1. The data file should be passed as an argument as described in the exercise. Both
+   should be changeable with `ant` environment variables ⇒ -1 Point
+
+   Your path check correctly prevents relative path tricks like
+
+    echo -e 'GET /../sheet-01/feedback-tutor.txt HTTP/1.1\r\n\r\n' | nc localhost 8080
+
+  but also access to subfolders. Also only preventing '/' doesn't work on
+  Windows which uses '\' for paths. ⇒ 0 Points
+2. Works and is even fast.
+3. You're lucky I'm not actually grading the design although the alignment was
+   in the exercise… ⇒ -1 Point
+

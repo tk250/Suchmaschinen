@@ -1,0 +1,35 @@
+Feedback
+========
+
+Points
+------
+13.0 Points
+
+Tips
+----
+- Since your postings are always length 2 it would be nicer to use tuples,
+  though then you always have to change the whole tuple
+- Instead of your own `second()` function you could also use `itemgetter()`
+  (https://docs.python.org/3/library/operator.html#operator.itemgetter) or
+  a lambda
+
+Exercise 1
+----------
+- In `read_from_file()` You're missing the k=∞ test case and the necessary change to the formula
+  ⇒ -2 Points
+- Otherwise `read_from_file()` looks fine
+- `merge()` looks good
+
+Exercise 2
+----------
+- You really can't test stuff like this on a tiny 3 line file. Instead you
+  should have tested on movies.txt. ⇒ -3 Points
+
+Exercise 3
+----------
+- `read_benchmark()` looks fine
+- `precision_at_k()` and `average_precision()` look fine
+- You're missing the `main()` function completely. In fact your old `main()`
+  doesn't work anymore because `read_from_file()` is missing `k` and `b`
+  ⇒ -2 Points
+

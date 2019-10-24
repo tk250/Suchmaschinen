@@ -1,0 +1,23 @@
+Feedback
+========
+
+Points
+------
+14.0 Points
+
+Exercise 1
+----------
+- Looks okay though it might make sense for you to also take a look at the
+  official solution which is somewhat different
+
+Exercise 2
+----------
+- In iteration 3 the second row of D is wrong. The reason is that the previous
+  normalized μ_2 vector is already wrong as (0 0 2 1)^T has length sqrt(5)
+  ⇒ -1 Points
+- Other than that all looks good
+
+Exercise 3
+----------
+- Not done ⇒ -5 Points
+

@@ -1,0 +1,32 @@
+Feedback
+========
+
+Points
+------
+8.0 Points
+
+
+Remarks
+-------
+- It would have been easier if you had included the evaluate_benchmarks.py from
+  sheet 02. Also maybe then it wouldn't have crashed in `read_from_file()` with
+  the following error
+
+    Traceback (most recent call last):
+      File "evaluate_inverted_index.py", line 166, in <module>
+        index.read_from_file(file_name, b=b, k=k)
+      File "/home/cstudent/tk250/sheet-08/inverted_index.py", line 84, in read_from_file
+        tfstar = tf * (k + 1)/(k * (1 - b + b * dl / avdl) + tf)
+    TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+
+Exercise 1
+----------
+- `preprocessing_vsm()`: Looks good
+- `process_query_vsm()`: Looks okay but couldn't easily test beyong unit tests
+  because it crashes in `read_from_file()` ⇒ -2 Points
+
+Exercise 2
+----------
+- No results in experiences.txt (missing) or on the Wiki nothing in the code
+  ⇒ -10 Points
+

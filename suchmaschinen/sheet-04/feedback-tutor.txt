@@ -1,0 +1,29 @@
+Feedback
+========
+
+Points
+------
+5.0 Points
+
+Remarks
+-------
+- Don't worry almost no one did more than Exercise 1
+
+Exercise 1
+----------
+- In your final `L_i` formula it needs to be `log_2(1/p_i)` but I believe this
+  is a typo as the `log_2(1) = 0` is trivial
+- I don't think the `L_1, …, L_k` part in `L()` is correct as it `L_i` is not
+  bounded
+- You're missing an explicit `λ = …` and the steps are pretty minimal and with
+  a bunch of other typos (missing `)`, "becouse")
+- Thus ⇒ -1 Points
+
+Exercise 2
+----------
+- Missing ⇒ -8 Points
+
+Exercise 3
+----------
+- Missing ⇒ -6 Points
+

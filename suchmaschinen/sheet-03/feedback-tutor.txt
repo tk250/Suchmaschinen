@@ -1,0 +1,19 @@
+Feedback
+========
+
+Points
+------
+18.0 Points
+
+Exercise 1
+----------
+1. Intersection algorithms:
+  - This is the weirdest implementation of binary search I've ever seen but
+    I think it does work. So I think that's still okay.
+  - Yes I think this counts as 3 ideas
+2. Evaluation:
+  - You only test the `intersectBaseline()` not that and your own version as
+    required by the exercise. Replacing it does work however. ⇒ -2 Points
+  - You were supposed to take averages per run but I can see how this wasn't
+    super clear from the sheet
+

@@ -1,0 +1,21 @@
+Feedback
+========
+
+Points
+------
+8.0 Points
+
+Exercise 1
+----------
+1. You're not using JSON at all but only plain text responses. This works even
+   with dynamic completion but is not what we asked for ⇒ -3 Points
+2. It's dynamic but you don't parse the responses at all and only dump them to
+   the HTML without any formatting. That was okayish for the last sheet but it's
+   just a bit too much of a cheap solution ⇒ -1 Points
+3. You aren't decoding  the URL at all. A search for ä just gives the results
+   for "C3A4" its hex encoding. Also without any encoding hint in the HTML or
+   the headers Chromium defaults to ISO-8859-1 which means the URL gets
+   encoded differently than expected. ⇒ -4 Points
+4. Not implemented ⇒ -2 Points
+5. Not implemented ⇒ -2 Points
+
